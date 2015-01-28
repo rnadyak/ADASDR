@@ -1,0 +1,16 @@
+Package: HW6
+Type: Package
+Title: The package contains 3 functions of Homework 6 of Advanced Data Analysis Software Development in R.
+Version: 1.0
+Date: 2015-01-26
+Author: Ruslan Nadyak
+Maintainer: Ruslan Nadyak <rnadyak@gmail.com>
+Description: The package contains 3 functions of Homework 6 of Advanced
+  Data Analysis Software Development in R.
+  1. Function mode() - determines the most frequently occurring value in an integer vector
+  2. Function simplify2array()  - simplify the list of numeric vectors to numeric matrix
+  3. Function perms() generates all the possible permutations of the set {1,2,...,n} (for some given n)
+License: GPL (>= 2)
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat
